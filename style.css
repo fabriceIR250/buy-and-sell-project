@@ -1,0 +1,352 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:20px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:grey;
+}
+.contain .navigation_bar  ul li a{
+    text-decoration: none;
+    color: rgb(35, 32, 32);
+    transition: 0.3s;
+    padding: 5px;
+}
+
+.contain .navigation_bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 35px;
+    
+}
+.contain .navigation_bar {
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 0px 6px rgb(60, 58, 58);
+    padding: 20px 0;
+}
+.contain .navigation_bar ul li a:hover{
+color: rgb(247, 215, 6);
+border: 1px dotted;
+padding: 5px;
+border-radius: 12px;
+
+}
+
+.contain .navigation_bar ul li .search{
+    position: absolute;
+    left:77%;
+    border-radius: 10px;
+    border: 3px solid black;
+    width:20%;
+}
+
+ .search_img {
+    width:20px;
+    position: absolute;
+    left:94.7%;
+    top:4.5%;
+    outline: none;
+}
+
+.slide_img .slide .sld{
+    float: left;
+    width:100%;
+}
+.slide_img .backsld{
+    width: 100%;
+    height:370px;
+    position: absolute;
+    top:80.5px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.slide_img .slide .sld{
+    position: absolute;
+    top:100px ;
+    width: 75%;
+    left: 25px;
+    float: left;
+
+}
+
+.downimg{
+    width: 13px;
+}
+
+.categoris ul li {
+    position: absolute;
+    top:63.8%;
+    left:40px;
+    color:black;
+    list-style: none;
+    display: inline-block;
+
+}
+
+ ul li ul li img{
+    width:60px;
+    padding: 20px 0;
+    display: none;
+    transition: 1s;
+}
+
+.categoris ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+
+ul li:hover ul li {
+    display:inline-block;
+}
+
+.car_cont .car{
+    display: inline-block;
+    position: absolute;
+    top:72%;
+    left:35px;
+    width:87px;
+    background-color: whitesmoke;
+    box-shadow: 10px 12px 13px black;
+    width:250px;
+    height: 350px;
+    border-radius: 15px;
+    transition: 3s;
+    
+}
+.car_cont2 .car{
+    display: inline-block;
+    position: absolute;
+    top:72%;
+    left:350px;
+    width:87px;
+    background-color: whitesmoke;
+    box-shadow: 10px 12px 13px black;
+    width:250px;
+    height: 350px;
+    border-radius: 15px;   
+    transition: 3s;
+}
+.car_cont3 .car{
+    display: inline-block;
+    position: absolute;
+    top:72%;
+    left:53%;
+    width:87px;
+    background-color: whitesmoke;
+    box-shadow: 10px 12px 13px black;
+    width:250px;
+    height: 350px;
+    border-radius: 15px;
+    transition: 2s;
+}
+
+.car_cont4 .car{
+    display: inline-block;
+    position: absolute;
+    top:72%;
+    left:79.5%;
+    width:87px;
+    background-color: whitesmoke;
+    box-shadow: 10px 12px 13px black;
+    width:250px;
+    height: 350px;
+    border-radius: 15px;
+    transition: 2s;
+}
+.car_cont5 .car{
+    display: inline-block;
+    position: absolute;
+    top:125%;
+    left:35px;
+    width:87px;
+    background-color: whitesmoke;
+    box-shadow: 10px 12px 13px black;
+    width:250px;
+    height: 350px;
+    border-radius: 15px;
+    transition: 2s;
+}
+.car_cont6 .car{
+    display: inline-block;
+    position: absolute;
+    top:125%;
+    left:350px;
+    width:87px;
+    background-color: whitesmoke;
+    box-shadow: 10px 12px 13px black;
+    width:250px;
+    height: 350px;
+    border-radius: 15px;
+    transition:2s;
+    
+}
+
+img .car{
+    width:12px;
+}
+
+ .click{
+    position: absolute;
+    top:114% ;
+    left:7.5%;
+    width: 120px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color:grey;
+    border-radius: 5px;
+    transition: 2s;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
+}
+.click:hover{
+    background-color:black;
+    color: white;
+    transform:scale(1.2);
+    opacity:12px;
+}
+
+.click1{
+    position: absolute;
+    top:114% ;
+    left:32.5%;
+    width: 120px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color:grey;
+    border-radius: 5px;
+    transition: 2s;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.click2{
+    position: absolute;
+    top:114% ;
+    left:57.5%;
+    width: 120px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color:grey;
+    border-radius: 5px;
+    transition: 2s;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.click3{
+    position: absolute;
+    top:114% ;
+    left:84.5%;
+    width: 120px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color:grey;
+    border-radius: 5px;
+    transition: 2s;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.click4{
+    position: absolute;
+    top:169% ;
+    left:7.5%;
+    width: 120px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color:grey;
+    border-radius: 5px;
+    transition: 2s;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.click5{
+    position: absolute;
+    top:169% ;
+    left:32.5%;
+    width: 120px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color:grey;
+    border-radius: 5px;
+    transition: 2s;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.click1:hover{
+    background-color:black;
+    color: white;
+    transform:scale(1.2);
+    opacity:12px;
+}
+.click2:hover{
+    background-color:black;
+    color: white;
+    transform:scale(1.2);
+    opacity:12px;
+}
+.click3:hover{
+    background-color:black;
+    color: white;
+    transform:scale(1.2);
+    opacity:12px;
+}
+.click4:hover{
+    background-color:black;
+    color: white;
+    transform:scale(1.2);
+    opacity:12px;
+}
+.click5:hover{
+    background-color:black;
+    color: white;
+    transform:scale(1.2);
+    opacity:12px;
+}
+
+.car_cont .car:hover{
+transform: scale(1.1);
+
+}
+.car_cont1 .car:hover{
+    transform: scale(1.1);
+    
+    }
+    .car_cont2 .car:hover{
+        transform: scale(1.1);
+        
+    }
+    .car_cont3 .car:hover{
+        transform: scale(1.1);
+    }
+    .car_cont4 .car:hover{
+        transform: scale(1.1);
+        
+        }
+    .car_cont5 .car:hover{
+        transform: scale(1.1);
+    }
+    .car_cont6 .car:hover{
+        transform: scale(1.1);
+    }
+ 
